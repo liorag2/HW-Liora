@@ -1,0 +1,63 @@
+#main{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80vw;
+    background-color:rgb(255, 255, 255);
+    
+    gap:10px;
+    padding: 20px;
+  
+
+}
+
+
+.grid-item {
+    background-color: gray;
+    
+    height: 300px;
+    border-radius: 30px;
+    
+    
+}
+.flex
+{
+    display: flex;
+
+
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    
+}
+.brand-name {
+  text-align: center;
+}
+
+.model-item {
+font-style: italic ;
+}
+
+.btn > span {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.grid-item:hover { background-color:rgb(255, 255, 255) }
+
+
+
+.form-control , .form-select {
+    
+    padding: 5px;
+    border: solid black;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+
+}
+.form-control{
+    margin-top: 20px;
+}
+.form-select{margin-top: 20px;}
